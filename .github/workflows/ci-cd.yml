@@ -62,7 +62,7 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: simple-java-app
+        name: github-actions-runner
         path: target/*.jar
