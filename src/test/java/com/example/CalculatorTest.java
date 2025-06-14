@@ -17,4 +17,9 @@ public class CalculatorTest {
     void testSubtract() {
         assertEquals(1, calculator.subtract(3, 2));
     }
+
+    @Test
+    void testMultiplay() {
+        assertEquals(6, calculator.multiplay(2,3));
+    }
 }
